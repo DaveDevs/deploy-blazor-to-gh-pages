@@ -3,7 +3,8 @@ description: 'Build a Blazor Wasm application and deploy it to GitHub Pages.'
 inputs:
   project_path:
     description: 'The path to the Blazor project'
-    required: true
+    required: false
+    default: '.'
 runs:
   using: "composite"
   steps:
