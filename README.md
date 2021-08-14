@@ -13,7 +13,7 @@ This is based on [Steve Sanderson](https://github.com/SteveSandersonMS)'s [`Blaz
   with:
     # The path to the Blazor project in the repository.
     # Default: '.'
-    project_path: ''   
+    project_path: 'path/to/project'   
 ```
 
 This requires you to enable GitHub Pages in your repository settings and to checkout the repository through [`actions/checkout`](https://github.com/actions/checkout) first.
