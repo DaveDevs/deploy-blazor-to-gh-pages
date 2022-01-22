@@ -9,13 +9,16 @@ This is based on [Steve Sanderson](https://github.com/SteveSandersonMS)'s [`Blaz
 # Usage
 
 ```yml
+steps:
+- uses: actions/checkout@v2
+- uses: actions/setup-dotnet@v1
+  with:
+    dotnet-version: '6.0.x'
 - uses: proulxsamuel/deploy-blazor-to-gh-pages@master
   with:
     # The path to the Blazor project in the repository.
     # Default: '.'
     project_path: 'path/to/project'   
 ```
-
-This requires you to enable GitHub Pages in your repository settings and to checkout the repository through [`actions/checkout`](https://github.com/actions/checkout) first.
 
 You can see a workflow example [here](https://github.com/proulxsamuel/blazor-pwa-on-gh-pages/blob/master/.github/workflows/deploy.yml).
