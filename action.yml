@@ -18,7 +18,7 @@ runs:
         sed -i '/blazor.webassembly.js/i \    <script src="redirect.js"><\/script>' ${{ inputs.project_path }}/wwwroot/index.html
       shell: bash
     - name: Publish application
-      run: dotnet publish -c Release -o ${{ runner.temp }}/${{ github.action }}
+      run: dotnet publish -c Release --property:PublishDir=${{ runner.temp }}/${{ github.action }}
       shell: bash
     - name: Create gh-pages branch
       run: |
