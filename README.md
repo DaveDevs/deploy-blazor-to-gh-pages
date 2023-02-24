@@ -1,3 +1,9 @@
+# Fork reason
+Forked due to: `error NETSDK1194: The "--output" option isn't supported when building a solution` 
+This error occurs with latest .Net7 release - `7.0.200`
+
+Details [here on Steven Giesels site](https://steven-giesel.com/blogPost/554ba273-9594-4d55-aac2-1366e28954b3)
+
 # Deploy Blazor to GitHub Pages
 
 This [GitHub Action](https://github.com/features/actions) publishes and deploys a Blazor WebAssembly project in your repository to your [GitHub Pages](https://pages.github.com/) through the `gh-pages` branch. It can be seen used in the [`blazor-pwa-on-gh-pages`](https://github.com/proulxsamuel/blazor-pwa-on-gh-pages) sample.
