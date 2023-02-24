@@ -1,6 +1,9 @@
 # Fork reason
+
 Forked due to: `error NETSDK1194: The "--output" option isn't supported when building a solution` 
 This error occurs with latest .Net7 release - `7.0.200`
+
+Usage: [example project and repo](https://github.com/DaveDevs/Financr/blob/main/.github/workflows/main.yml)
 
 Details [here on Steven Giesels site](https://steven-giesel.com/blogPost/554ba273-9594-4d55-aac2-1366e28954b3)
 
